@@ -6,16 +6,8 @@ sudo apt install curl -y
 echo 'installing git' 
 sudo apt install git -y
 
-echo "What name do you want to use in GIT user.name?"
-echo "For example, mine will be \"Melisse Cabral\""
-read git_config_user_name
-git config --global user.name "$git_config_user_name"
-clear 
-
-echo "What email do you want to use in GIT user.email?"
-echo "For example, mine will be \"melissecabral@gmail.com\""
-read git_config_user_email
-git config --global user.email $git_config_user_email
+git config --global user.name "Melisse Cabral"
+git config --global user.email "melissecabral@gmail.com"
 clear
 
 echo "Generating a SSH Key"

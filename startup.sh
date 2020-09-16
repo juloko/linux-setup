@@ -51,6 +51,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install code -y # or code-insiders
 echo 'installing extensions'
 code --install-extension dracula-theme.theme-dracula
+code --install-extension Shan.code-settings-sync
 
 echo 'installing nvm' 
 sh -c "$(curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash)"

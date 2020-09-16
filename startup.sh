@@ -164,3 +164,9 @@ sudo apt-get install -f
 
 echo 'installing insomnia'
 sudo snap install insomnia
+
+echo 'installing heroku CLI'
+sudo snap install --classic heroku
+
+echo 'installing firebase CLI'
+curl -sL https://firebase.tools | bash

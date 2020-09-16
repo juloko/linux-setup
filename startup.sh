@@ -163,6 +163,9 @@ wget -c https://dbeaver.io/files/6.0.0/dbeaver-ce_6.0.0_amd64.deb
 sudo dpkg -i dbeaver-ce_6.0.0_amd64.deb
 sudo apt-get install -f
 
+echo 'installing dbeaver'
+sudo apt-get install postgresql
+
 echo 'installing insomnia'
 sudo snap install insomnia
 

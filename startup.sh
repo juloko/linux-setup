@@ -6,8 +6,8 @@ sudo apt install curl -y
 echo 'installing git' 
 sudo apt install git -y
 
-git config --global user.name "Melisse Cabral"
-git config --global user.email "melissecabral@gmail.com"
+git config --global user.name "Julio Lima"
+git config --global user.email "julio_flima@hotmail.com"
 clear
 
 echo "Generating a SSH Key"
